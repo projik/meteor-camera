@@ -1,0 +1,87 @@
+.camera-popup {
+    position: fixed;
+    z-index: 1000;
+    top: 15%;
+    width: 70%;
+    left: 15%;
+    height: 70%;
+    font-family: sans-serif;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    line-height: 1.3em;
+    pointer-events: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.camera-popup .hidden {
+    display: none;
+}
+
+.camera-popup .viewfinder {
+    text-align: center;
+}
+
+.camera-popup #video {
+    width: 65%;
+}
+
+.camera-popup .center {
+    text-align: center;
+}
+
+.camera-popup .photo-preview {
+    width: 65%;
+}
+
+.camera-popup canvas {
+    display: none;
+}
+
+.camera-popup .generic-error {
+    text-align: center;
+}
+
+.camera-popup .permission-denied-error h2 {
+    margin-top: 0;
+    color: #596595;
+    border-bottom: 1px solid #596595;
+    padding-bottom: 10px;
+    line-height: 1.3em;
+}
+
+.camera-popup .permissions-howto dd {
+    margin: 5px 0 20px 10px;
+    padding: 0;
+    font-size: 0.8em;
+    color: #444;
+}
+
+.camera-popup button {
+    color: white;
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: #596595;
+    border: 1px solid #464f75;
+}
+
+.camera-popup button:active {
+    background-color: #7580ac;
+    border: 1px solid #596595;
+}
+
+.camera-popup button .cancel {
+    bottom: 5%;
+}
+
+.camera-overlay {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
