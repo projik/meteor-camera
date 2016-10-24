@@ -206,6 +206,5 @@ MeteorCamera.getPicture = function (options, callback) {
     callback.apply(null, originalArgs);
   };
   
-  view = UI.renderWithData(Template.camera);
-  UI.insert(view, document.body);
+  view = Blaze.render(Template.camera, document.body);
 };
