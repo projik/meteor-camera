@@ -1,7 +1,7 @@
 Package.describe({
     name: "supaseca:camera",
     summary: "Updated for Meteor 1.4. Photos with one function call on desktop and mobile.",
-    version: "1.4.2",
+    version: "1.4.3",
     git: "https://github.com/projik/meteor-camera"
 });
 
